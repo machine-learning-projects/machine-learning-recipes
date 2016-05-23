@@ -11,3 +11,6 @@ Last episode, we treated our Decision Tree as a blackbox. In this episode, we'll
 
 ## [Part 3 - What Makes a Good Feature?](https://youtu.be/N9fDIAflCMY)
 Good features are informative, independent, and simple. In this episode, we'll introduce these concepts by using a histogram to visualize a feature from a toy dataset.
+
+## [Part 4 - Let’s Write a Pipeline](https://youtu.be/84gqSbLcBFE)
+In this episode, we’ll write a basic pipeline for supervised learning with just 12 lines of code. Along the way, we'll talk about training and testing data. Then, we’ll work on our intuition for what it means to “learn” from data.
