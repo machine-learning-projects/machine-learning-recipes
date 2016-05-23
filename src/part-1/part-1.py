@@ -1,4 +1,6 @@
-# Part 1 - Hello World
+# Part 1 - Hello World - https://youtu.be/cKxRvEZd3Mw
+
+# Follow a recipe for supervised learning (a technique to create a classifier from examples) and code it up.
 
 from sklearn import tree
 

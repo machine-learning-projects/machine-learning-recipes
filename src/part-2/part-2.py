@@ -1,4 +1,7 @@
-# Part 2 - Visualizing a Decision Tree
+# Part 2 - Visualizing a Decision Tree - https://youtu.be/tNa99PG8hR8
+
+# Build one on a real dataset, add code to visualize it, and practice reading it - so you can see how it works under the
+# hood.
 
 # Use Iris flower data set: https://en.wikipedia.org/wiki/Iris_flower_data_set
 # Identify type of flower based on measurements
