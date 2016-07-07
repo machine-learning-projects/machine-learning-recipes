@@ -21,6 +21,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.5)
 
 # Classifier
 from sklearn import tree
+
 my_classifier = tree.DecisionTreeClassifier()
 my_classifier.fit(X_train, y_train)
 
@@ -30,11 +31,13 @@ print predictions
 
 # test
 from sklearn.metrics import accuracy_score
+
 print accuracy_score(y_test, predictions)
 
-#Repeat using KNN
+# Repeat using KNN
 # Classifier
 from sklearn.neighbors import KNeighborsClassifier
+
 my_classifier = KNeighborsClassifier()
 my_classifier.fit(X_train, y_train)
 
@@ -44,4 +47,5 @@ print predictions
 
 # test
 from sklearn.metrics import accuracy_score
+
 print accuracy_score(y_test, predictions)

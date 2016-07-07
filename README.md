@@ -14,3 +14,6 @@ Good features are informative, independent, and simple. In this episode, we'll i
 
 ## [Part 4 - Let’s Write a Pipeline](https://youtu.be/84gqSbLcBFE)
 In this episode, we’ll write a basic pipeline for supervised learning with just 12 lines of code. Along the way, we'll talk about training and testing data. Then, we’ll work on our intuition for what it means to “learn” from data.
+
+## [Part 5 - Writing Our First Classifier](https://youtu.be/AoeEHqVSNOw)
+Welcome back! It's time to write our first classifier. This is a milestone if you’re new to machine learning. We'll start with our code from episode #4 and comment out the classifier we imported. Then, we'll code up a simple replacement - using a scrappy version of k-Nearest Neighbors
