@@ -24,9 +24,18 @@ iris = load_iris()
 
 print iris.feature_names  # metadata: names of the features
 print iris.target_names  # metadata: names of the different types of flowers
+
+#Python 3.6.0 |Anaconda 4.3.1
+#print(iris.feature_names)
+#print(iris.target_names)
+
 # print iris.data  # features and examples themselves
 print iris.data[0]  # first flower
 print iris.target[0]  # contains the labels
+
+#Python 3.6.0 |Anaconda 4.3.1
+print(iris.data[0])
+print(iris.target[0])
 
 # print entire dataset
 # for i in xrange(len(iris.target)):
@@ -62,8 +71,15 @@ clf.fit(train_data, train_target)
 
 # what we expect
 print test_target
+
+#Python 3.6.0 |Anaconda 4.3.1
+#print(test_target)
+
 # what tree predicts
 print clf.predict(test_data)
+
+#Python 3.6.0 |Anaconda 4.3.1
+#print clf.predict(test_data)
 
 # Visualize
 # from scikit decision tree tutorial: http://scikit-learn.org/stable/modules/tree.html
