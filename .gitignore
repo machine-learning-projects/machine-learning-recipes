@@ -126,3 +126,4 @@ $RECYCLE.BIN/
 
 
 # End of https://www.gitignore.io/api/osx,linux,windows,pycharm+all
+/src/part_7/MNIST-data/
