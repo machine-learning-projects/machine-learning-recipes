@@ -20,3 +20,6 @@ Welcome back! It's time to write our first classifier. This is a milestone if yo
 
 ## [Part 6 - Train an Image Classifier with TensorFlow for Poets](https://youtu.be/cSKfRcEDGUs)
 Monet or Picasso? In this episode, we’ll train our own image classifier, using TensorFlow for Poets. Along the way, I’ll introduce Deep Learning, and add context and background on why the classifier works so well. Here are links to learn more, thanks for watching, and have fun!
+
+## [Part 7 - Classifying Handwritten Digits with TF.Learn](https://youtu.be/Gj0iyo265bc)
+Write a basic classifier using TF.Learn.
