@@ -43,15 +43,15 @@ print(classifier.evaluate(test_data, test_labels)["accuracy"])
 
 # classify some examples
 # this will be classified correctly:
-print("Predicted %d, Label: %d" % (classifier.predict(test_data[0]), test_labels[0]))
+# print("Predicted %d, Label: %d" % (classifier.predict(test_data[0]), test_labels[0]))
 display(0)
 #
 # # this will be classified incorrectly:
-print("Predicted %d, Label: %d" % (classifier.predict(test_data[8]), test_labels[8]))
+# print("Predicted %d, Label: %d" % (classifier.predict(test_data[8]), test_labels[8]))
 display(8)
 
 # visualize learned weights
-weights = classifier.weights_
+weights = classifier.get_variable_value("linear//weight/d/linear//weight/part_0/Ftrl_1")
 f, axes = plt.subplots(2, 5, figsize=(10, 4))
 axes = axes.reshape(-1)
 for i in range(len(axes)):
